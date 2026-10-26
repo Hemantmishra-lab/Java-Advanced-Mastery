@@ -1,0 +1,16 @@
+Summary of key classes used:
+LocalDate: Date without time or time zone (e.g., YYYY-MM-DD).
+
+LocalTime: Time without date or time zone (e.g., HH:mm:ss).
+
+LocalDateTime: Date and time without time zone offset.
+
+ZonedDateTime: Full date and time with a specific ZoneId.
+
+Instant: High-precision UTC timestamp for machine logs.
+
+Period: Measures distance in date units (years, months, days).
+
+Duration: Measures distance in time units (hours, minutes, seconds).
+
+DateTimeFormatter: Formats dates/times to String or parses strings to date objects.

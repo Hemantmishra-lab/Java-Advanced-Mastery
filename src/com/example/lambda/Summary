@@ -1,0 +1,26 @@
+• Data Extraction (.map(Function))
+Transforms elements from one type or structure to another.
+
+• Intermediate Ops (.filter(), .map(), .sorted())
+Returns a new stream. These are lazy and do not execute until a terminal operation is called.
+
+• Terminal Ops (.collect(), .count(), .findFirst())
+Consumes the stream, triggers the execution pipeline, and yields a final result or side-effect.
+
+• Null Safety (Optional<T>)
+A container that explicitly handles optional or missing values without throwing null pointer exceptions.
+
+• Lazy Evaluation (Deferred Execution)
+Delays the evaluation of the pipeline until a terminal operation is invoked, enabling efficiency and short-circuiting.
+
+• Sorting (.sorted(Comparator))
+Reorders stream elements based on natural ordering or custom comparator logic.
+
+• Collecting (.collect(Collectors.to...))
+Accumulates elements into a standard Java collection like a List, Set, or Map.
+
+• Grouping (Collectors.groupingBy())
+Groups elements by a key function into a Map<K, List<V>>.
+
+• Partitioning (Collectors.partitioningBy())
+Splits elements by a boolean predicate into a Map<Boolean, List<V>>.

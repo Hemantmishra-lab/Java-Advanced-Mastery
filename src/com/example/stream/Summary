@@ -1,0 +1,23 @@
+• Builder Pattern (Stream.builder() / Static Inner Class)
+Constructs immutable objects step-by-step, separating construction logic from representation.
+
+• Lambda Iteration (collection.forEach(item -> ...))
+Uses internal iteration where the underlying framework manages the loop execution loop automatically.
+
+• Stream Interface (Stream<T>)
+A non-storage pipeline wrapper designed to process sequences of elements lazily.
+
+• Filtering (.filter(Predicate<T>))
+An intermediate operation that discards elements that fail a specified condition.
+
+• Method Chaining (.filter().map().sorted())
+Combines multiple intermediate transformations into a single, highly readable processing pipeline.
+
+• Parallel Execution (.parallelStream() / .parallel())
+Utilizes a Spliterator and ForkJoinPool to split stream chunks across multiple CPU cores.
+
+• Reduction (.reduce(identity, accumulator, combiner))
+Folds stream elements down into a single scalar value or custom data structure.
+
+• Decompose & Merge (ForkJoinTask / Combiner)
+Forking splits the data structure recursively, while joining merges partial results from different threads.

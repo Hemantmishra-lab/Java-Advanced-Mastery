@@ -1,0 +1,17 @@
+• Path Manipulation (Paths.get(), Path.resolve(), Path.normalize())
+Defines hierarchical file or directory paths without accessing the file system directly.
+
+• File Operations (Files.copy(), Files.move(), Files.delete())
+Performs file system tasks and accepts CopyOption flags like REPLACE_EXISTING.
+
+• Streaming File Content (Files.lines(Path))
+Reads lines lazily as a Stream<String> to prevent high memory use on large files.
+
+• Directory Streams (Files.list(Path))
+Returns a Stream<Path> listing entries of a single directory level.
+
+• Recursive Traversal (Files.walk(Path))
+Recursively traverses a directory tree using depth-first search.
+
+• Attribute Matching (Files.find(Path, depth, BiPredicate))
+Filters path tree entries using built-in file attributes like BasicFileAttributes.
